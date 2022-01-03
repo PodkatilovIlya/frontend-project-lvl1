@@ -2,7 +2,7 @@ name: CI
 on: push
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-    - name: lint
-      run: make lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: lint
+        run: make lint
